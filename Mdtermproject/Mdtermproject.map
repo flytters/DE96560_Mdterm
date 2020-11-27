@@ -1,0 +1,122 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Nov 27 20:40:23 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x00034e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x000365      
+            854 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x0000b4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   AGAIN1   0x0000b8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CHECK   0x000350    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   CHECK1   0x000358    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   CHECK2   0x000360    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFA   0x00021a    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFB   0x000224    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFC   0x00022e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFD   0x000238    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 DELAYSEC   0x0000b0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  DISPKEY   0x000184    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  DISPLAY   0x0000a6    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+            DISPLYHAZIRAH   0x00001a    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 DISPLYID   0x000058    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                DSPLYDATA   0x000326    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    EIGHT   0x0001e8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     FIVE   0x0001c4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     FOUR   0x0001b8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 INPUTKEY   0x000320    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     NINE   0x0001f4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      ONE   0x000194    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+               SECONDLINE   0x000242    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   SETCMD   0x000334    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SEVEN   0x0001dc    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW0   0x00024c    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW1   0x00025e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW2   0x000270    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW3   0x000282    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW4   0x000294    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW5   0x0002a2    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW6   0x0002b4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW7   0x0002c6    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW8   0x0002d8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW9   0x0002ea    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 SHOWSTAR   0x0002fc    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  SHOWTAG   0x00030e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      SIX   0x0001d0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     STAR   0x000200    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      TAG   0x00020c    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    THREE   0x0001ac    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      TWO   0x0001a0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 WRITECMD   0x000096    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     ZERO   0x000188    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    start   0x000342    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            DISPLYHAZIRAH   0x00001a    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 DISPLYID   0x000058    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 WRITECMD   0x000096    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  DISPLAY   0x0000a6    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 DELAYSEC   0x0000b0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    AGAIN   0x0000b4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   AGAIN1   0x0000b8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  DISPKEY   0x000184    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     ZERO   0x000188    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      ONE   0x000194    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      TWO   0x0001a0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    THREE   0x0001ac    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     FOUR   0x0001b8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     FIVE   0x0001c4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      SIX   0x0001d0    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SEVEN   0x0001dc    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    EIGHT   0x0001e8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     NINE   0x0001f4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                     STAR   0x000200    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                      TAG   0x00020c    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFA   0x00021a    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFB   0x000224    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFC   0x00022e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CONFD   0x000238    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+               SECONDLINE   0x000242    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW0   0x00024c    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW1   0x00025e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW2   0x000270    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW3   0x000282    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW4   0x000294    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW5   0x0002a2    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW6   0x0002b4    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW7   0x0002c6    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW8   0x0002d8    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    SHOW9   0x0002ea    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 SHOWSTAR   0x0002fc    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                  SHOWTAG   0x00030e    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                 INPUTKEY   0x000320    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                DSPLYDATA   0x000326    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   SETCMD   0x000334    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    start   0x000342    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                    CHECK   0x000350    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   CHECK1   0x000358    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+                   CHECK2   0x000360    program     static C:\Users\HP\Documents\Mdtermproject\Mdtermproject.asm
+
+
